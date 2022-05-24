@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <!-- navbar area -->
+    <div class="container">
+        <div class="navbar">
+            <h1>Dojonary</h1>
+
+            <input type="search" name="searchbox" id="seachbox" placeholder="search">
+
+            <button id="login" onclick="login()">Login</button>
+
+        </div>
+    </div>
+    
+
+    <!-- main body area -->
+    <div class="main">
+
+        <!-- left column -->
+        <div class="leftcol">
+            <!-- first definition box -->
+            <div class="definition">
+                <div class="leftside">
+                    <h1 id="word">ninja</h1>
+                    <h3 id="type">noun</h3>
+                    <h3>Plural: <span id="plural">ninjas</span></h3>
+                    <button onclick="likeone()"><span id="likesone">13</span> likes</button>
+                </div>
+
+                <div class="rightside">
+                    <h2>A Practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></h2>
+                    
+                </div>
+
+            </div>
+            <!-- second definition box -->
+            <div class="definition">
+                <div class="leftside">
+                    <h1 id="word">ninja</h1>
+                    <h3 id="type">noun</h3>
+                    <h3>Plural: <span id="plural">ninjas</span></h3>
+                    <button onclick="liketwo()"><span id="likestwo">13</span> likes</button>
+                </div>
+
+                <div class="rightside">
+                    <h2>A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</h2>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- right column -->
+        <div class="rightcol">
+            <div class="adddefinitionbox" id="adddefbox">
+                <h2>Dojonary is defined by YOU</h2>
+                <button id="adddef" onclick="hidebut(this)">Add Definition</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    height: 60px;
+    width: 900px;
+    background-color: rgb(190, 190, 190);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.navbar h1 {
+    margin: 10px;
+    color: rgb(58, 58, 58);
+}
+
+
+
+.navbar input {
+    margin: 10px;
+    width: 300px;
+    background-color: rgb(138, 202, 255);
+    color: rgb(0, 89, 141);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.navbar button {
+    margin: 10px;
+    width: 100px;
+    background-color: rgb(2, 111, 235);
+    border: 2px solid rgb(47, 93, 131);
+    color: rgb(138, 202, 255);
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.main {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.leftcol {
+    width: 500px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.definition {
+    height: 220px;
+    background-color: white;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+}
+
+.lefside {
+    margin: 20px;
+    width: 100px;
+}
+
+.leftside h1 {
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+.leftside h3 {
+    padding-left: 20px;
+}
+
+.leftside button {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(218, 218, 0);
+    margin: 30px 20px;
+    border-radius: 10px;
+}
+
+.leftside #plural {
+    font-style: italic;
+}
+
+.rightside {
+    width: 320px;
+    height: 100px;
+    margin: auto 20px;
+}
+
+.rightcol {
+    width: 255px;
+    margin-top: 50px;
+}
+
+.adddefinitionbox {
+    height: 200px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.adddefinitionbox h2 {
+    margin: 20px;
+    text-align: left;
+}
+
+.adddefinitionbox button {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(0, 206, 0);
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
